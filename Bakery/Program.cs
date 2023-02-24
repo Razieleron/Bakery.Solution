@@ -18,18 +18,21 @@ namespace Bakery
       Console.WriteLine("If you purchase 3 loaves, you get the 4th free!  So 4 pastries would equal 6 dollars");
       Console.WriteLine();
       Console.WriteLine("How many loaves would you like?");
+
       int breadOrder;
       while (!int.TryParse(Console.ReadLine(), out breadOrder))
         {
-          Console.WriteLine("Invalid input. Please enter a number.");
+          Console.WriteLine("I'm sorry, our program only accepts numbers. Please try again with a number this time.");
         }
       Console.WriteLine($"Your subtotal for your Bread is {Bread.CalculateBreadCost(breadOrder)}");
       Console.WriteLine("How many pastries would you like?");
+
       int pastryOrder;
       while (!int.TryParse(Console.ReadLine(), out pastryOrder))
         {
-          Console.WriteLine("Invalid input. Please enter a number.");
+          Console.WriteLine("I'm sorry, our program only accepts numbers. Please try again with a number this time.");
         }
+
       Console.WriteLine($"Your subtotal for your Pastry(ies) is {Pastry.CalculatePastryCost(pastryOrder)}");
       Console.WriteLine();
       Console.WriteLine($"That Brings your total to {Bread.CalculateBreadCost(breadOrder) + Pastry.CalculatePastryCost(pastryOrder)} dollars.");
