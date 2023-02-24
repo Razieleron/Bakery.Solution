@@ -10,7 +10,15 @@ namespace Products.Models
       int costPastry = 2;
       int numFreePastry = input / 4;
       int numPaidPastry = input - numFreePastry;
-      int pastryTotal = numPaidPastry * costPastry;
+      int pastryTotal = 0;
+      if (input == 0)
+      {
+        pastryTotal = 0;
+      }
+      else
+      {
+        pastryTotal = numPaidPastry * costPastry;
+      }
       return pastryTotal;
     }
   }
