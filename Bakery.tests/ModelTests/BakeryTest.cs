@@ -32,6 +32,37 @@ namespace Bakery.Tests
       int input = 0;
       Assert.AreEqual(0, Bread.CalculateBreadCost(input));
     }
+    //---------------------------------------------------------------------//
+        [TestMethod]
+    public void CalculatePastryCost_CalculatesCostOf1_ReturnsPastryCost()
+    {
+      int input = 1;
+      Assert.AreEqual(2, Pastry.CalculatePastryCost(input));
+    }
+    [TestMethod]
+    public void CalculatePastryCost_CalculatesCostOf2_ReturnsPastryCost()
+    {
+      int input = 2;
+      Assert.AreEqual(4, Pastry.CalculatePastryCost(input));
+    }
+    [TestMethod]
+    public void CalculatePastryCost_CalculatesCostOf3_ReturnsPastryCost()
+    {
+      int input = 3;
+      Assert.AreEqual(6, Pastry.CalculatePastryCost(input));
+    }
+    [TestMethod]
+    public void CalculatePastryCost_CalculatesCostOf4_ReturnsPastryCost()
+    {
+      int input = 4;
+      Assert.AreEqual(6, Pastry.CalculatePastryCost(input));
+    }
+    [TestMethod]
+    public void CalculatePastryCost_CalculatesCostOf0_ReturnsPastryCost()
+    {
+      int input = 0;
+      Assert.AreEqual(0, Pastry.CalculatePastryCost(input));
+    }
     //public void NameOfMethod_WhatTheTestDoes_DesiredOutcome()
     //arrange - get all your variables
     //act - do what you're gonna do with the variables
