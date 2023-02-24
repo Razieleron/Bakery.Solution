@@ -1,6 +1,5 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Bread.Models;
-using Pastry.Models;
+using Products.Models;
 using System.Collections.Generic;
 using System;
 
@@ -10,9 +9,10 @@ namespace Bakery.Tests
   public class BakeryTests
   {
     [TestMethod]
-        public void FinallyTheNameOfTheTest()
+    public void CalculateBreadCost_CalculatesCost_ReturnsBreadCost()
     {
-
+      int input = 1;
+      Assert.AreEqual(5, Bread.CalculateBreadCost(input));
     }
     //public void NameOfMethod_WhatTheTestDoes_DesiredOutcome()
     //arrange - get all your variables
