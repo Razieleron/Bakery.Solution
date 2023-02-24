@@ -9,20 +9,22 @@ namespace Bakery.Tests
   public class BakeryTests
   {
     [TestMethod]
-    public void CalculateBreadCost_CalculatesCost_ReturnsBreadCost()
+    public void CalculateBreadCost_CalculatesCostOf1_ReturnsBreadCost()
     {
       int input = 1;
       Assert.AreEqual(5, Bread.CalculateBreadCost(input));
     }
-        public void CalculateBreadCost_CalculatesCost_ReturnsBreadCost()
+    [TestMethod]
+    public void CalculateBreadCost_CalculatesCostOf2_ReturnsBreadCost()
     {
-      int input = 1;
-      Assert.AreEqual(5, Bread.CalculateBreadCost(input));
+      int input = 2;
+      Assert.AreEqual(10, Bread.CalculateBreadCost(input));
     }
-        public void CalculateBreadCost_CalculatesCost_ReturnsBreadCost()
+    [TestMethod]
+    public void CalculateBreadCost_CalculatesCostOf3_ReturnsBreadCost()
     {
-      int input = 1;
-      Assert.AreEqual(5, Bread.CalculateBreadCost(input));
+      int input = 3;
+      Assert.AreEqual(10, Bread.CalculateBreadCost(input));
     }
     //public void NameOfMethod_WhatTheTestDoes_DesiredOutcome()
     //arrange - get all your variables
