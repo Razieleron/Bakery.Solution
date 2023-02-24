@@ -26,6 +26,12 @@ namespace Bakery.Tests
       int input = 3;
       Assert.AreEqual(10, Bread.CalculateBreadCost(input));
     }
+    [TestMethod]
+    public void CalculateBreadCost_CalculatesCostOf0_ReturnsBreadCost()
+    {
+      int input = 0;
+      Assert.AreEqual(0, Bread.CalculateBreadCost(input));
+    }
     //public void NameOfMethod_WhatTheTestDoes_DesiredOutcome()
     //arrange - get all your variables
     //act - do what you're gonna do with the variables
