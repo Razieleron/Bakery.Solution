@@ -4,7 +4,6 @@ namespace Products.Models
 {
   public class Bread
   {
-
     public static int CalculateBreadCost(int input)
     {
       int costBread = 5;
@@ -20,6 +19,6 @@ namespace Products.Models
       breadTotal = numPaidBread * costBread;
       }
       return breadTotal;
-      }
     }
   }
+}

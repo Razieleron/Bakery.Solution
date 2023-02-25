@@ -1,4 +1,4 @@
-# Bakery!
+#### Bakery!
 
 #### An application that calculates the price of a bakery order in C#
 
@@ -19,7 +19,6 @@ The user is at a bakery!  They will be prompted for how many loaves of Bread and
 * _In GitBash, clone down the repository from https://github.com/Razieleron/Bakery using 'git clone https://github.com/Razieleron/Bakery'_
 * _Once you have the repository cloned, construct the program by typing 'dotnet build' in your git bash terminal while in the same file directory as where the repository.
 * _After you have successfully built the program, you will be able to run it by typing in your terminal 'dotnet run', which will initialize the program, and ask you how many loaves of bread you want and how many pastries you want as well!
-
 
 ## Known Bugs
 
@@ -48,7 +47,6 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
 
 
 Please reach out to me if you have any issues, questions or concerns at jannon.sielaff@gmail.com. Please feel free to contact me or make a contribution/improvement to my code!

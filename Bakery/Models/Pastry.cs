@@ -4,7 +4,6 @@ namespace Products.Models
 {
   public class Pastry
   {
-
     public static int CalculatePastryCost(int input)
     {
       int costPastry = 2;
