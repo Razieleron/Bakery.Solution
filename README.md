@@ -19,6 +19,7 @@ The user is at a bakery!  They will be prompted for how many loaves of Bread and
 * _In GitBash, clone down the repository from https://github.com/Razieleron/Bakery using 'git clone https://github.com/Razieleron/Bakery'_
 * _Once you have the repository cloned, construct the program by typing 'dotnet build' in your git bash terminal while in the same file directory as where the repository.
 * _After you have successfully built the program, you will be able to run it by typing in your terminal 'dotnet run', which will initialize the program, and ask you how many loaves of bread you want and how many pastries you want as well!
+* _If you want to run tests, be sure to navigate to the Bakery.Tests folder in your gitbash terminal and type in dotnet test - this will run all of the TDD contained with in the BakeryTest.cs file in the ModelTests folder.  You can run these tests to ensure the code is working properly._
 
 ## Known Bugs
 
